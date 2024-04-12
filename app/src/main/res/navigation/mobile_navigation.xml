@@ -8,18 +8,28 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="daniel.granados.appestudiantes.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="Inicio"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="daniel.granados.appestudiantes.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="Información"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="daniel.granados.appestudiantes.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="Notas"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/fragment_codigos"
+        android:name="daniel.granados.appestudiantes.fragment_codigos"
+        android:label="Códigos"
+        tools:layout="@layout/fragment_codigos" />
+    <fragment
+        android:id="@+id/fragment_perfil"
+        android:name="daniel.granados.appestudiantes.fragment_perfil"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_perfil" />
 </navigation>
